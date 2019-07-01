@@ -1,0 +1,53 @@
+.container{
+  border-radius: 4px; 
+  background-color: #f5f5f5;
+  margin-top:50px;
+  padding: 24px;
+}
+
+.sub-container{
+  background-color:transparent;
+}
+
+.main-container{
+  background: url(https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.mapboxgl-popup-content a{
+  text-decoration: none;
+  font-weight:bold;
+}
+
+.mapboxgl-popup-content a:visited{
+  color:blue;
+}
+
+.text-center{
+  text-align: center
+}
+
+.button_close{
+  position: absolute;
+  background: none;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  right: 5px;
+  top: 5px;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.f-center{
+  justify-content: center;
+}
+
+.f-spaceBetween{
+  justify-content: space-between;
+}
