@@ -2,8 +2,9 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useContext, useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
-
+// Material UI
 import Container from '@material-ui/core/Container';
+// context
 import hotelsContext from '../context/hotel/hotelsContext';
 // components
 import Searchform from '../components/Searchform';

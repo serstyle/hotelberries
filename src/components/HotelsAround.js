@@ -1,5 +1,7 @@
 import React, { useContext } from 'react';
+// components
 import CustomMap from './CustomMap';
+// context
 import hotelsContext from '../context/hotel/hotelsContext';
 
 export default function HotelsAround() {

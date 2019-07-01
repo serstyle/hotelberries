@@ -1,5 +1,7 @@
 import React from 'react';
+// Material UI
 import Grid from '@material-ui/core/Grid';
+// components
 import CardHotels from './CardHotels';
 
 export default function ListHotels({ hotels }) {

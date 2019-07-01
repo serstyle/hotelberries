@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import ReactMapboxGl, { Layer, Feature, Popup } from 'react-mapbox-gl';
+// components
 import CustomMapMarker from './CustomMapMarker';
+// hooks
 import useGetLocation from '../hooks/useGetLocation';
 
 const Map = ReactMapboxGl({

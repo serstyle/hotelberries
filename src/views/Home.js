@@ -1,9 +1,11 @@
 import React, { useContext, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-
+// Material UI
 import Container from '@material-ui/core/Container';
+// context
 import hotelsContext from '../context/hotel/hotelsContext';
 
+// components
 import Searchform from '../components/Searchform';
 import HotelsAround from '../components/HotelsAround';
 import CustomSelect from '../components/CustomSelect';

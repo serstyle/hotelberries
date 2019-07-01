@@ -1,14 +1,16 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+// Material UI
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-
 import Favorite from '@material-ui/icons/Favorite';
 import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
+
+// context
 import hotelsContext from '../context/hotel/hotelsContext';
 
 const useStyles = makeStyles({

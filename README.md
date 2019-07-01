@@ -1,9 +1,13 @@
-## HotelBerries
+# HotelBerries
+
+## Instructions
 You will need the API token to run MapBox. Add a file .env in the root and past what I would give to you.
 
-## Live here : https://hotelberries.netlify.com/
+**Live here** : https://hotelberries.netlify.com/
 
 I used React Hooks as javascript library and MapBox as a third part api.
+
+## Recap
 
 You can do:
 - Search by name

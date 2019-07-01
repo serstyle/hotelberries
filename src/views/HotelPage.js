@@ -1,11 +1,14 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useContext, useState } from 'react';
 import { Helmet } from 'react-helmet';
+
+// Material Ui
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 // components
 import CustomMap from '../components/CustomMap';
 import CardHotelInfo from '../components/CardHotelInfo';
+// context
 import hotelsContext from '../context/hotel/hotelsContext';
 
 export default function HotelPage(props) {
