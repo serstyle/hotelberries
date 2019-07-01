@@ -1,9 +1,11 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useContext, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
+// Material UI
 import Container from '@material-ui/core/Container';
+// context
 import hotelsContext from '../context/hotel/hotelsContext';
-
+// components
 import ListHotel from '../components/ListHotels';
 
 export default function FavHotels() {
